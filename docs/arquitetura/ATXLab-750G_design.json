@@ -1,0 +1,19 @@
+{
+  "project": "ATXLab-750G",
+  "revision": "A",
+  "continuous_W": 750,
+  "temporary_W": 900,
+  "thermal_target_W": 1000,
+  "rails": {
+    "+12V": {"modules": 6, "A_each": 10, "W_total": 720},
+    "+5V": {"modules": 2, "A_each": 6},
+    "+3.3V": {"modules": 2, "A_each": 6},
+    "+5VSB": {"modules": 1, "A_each": 3},
+    "-12V": {"modules": 1, "A_each": 1}
+  },
+  "gold": {
+    "115V": {"20": 0.87, "50": 0.90, "100": 0.87},
+    "230VEU": {"20": 0.90, "50": 0.92, "100": 0.89}
+  },
+  "status": "architecture frozen; schematic detailed design pending"
+}
