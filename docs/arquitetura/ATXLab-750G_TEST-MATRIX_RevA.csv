@@ -1,0 +1,8 @@
+ID;Teste;Carga_W;Duração;Resultado esperado
+T01;Standby;0;60 s;5VSB e sinais válidos
+T02;20% Gold;150;≥5 min;eficiência limite
+T03;50% Gold;375;≥5 min;eficiência e PF limite
+T04;100% Gold;750;≥5 min;eficiência limite
+T05;Burn-in;750;60 min;sem falha
+T06;Overload;900;≤60 s;sem exceder térmica
+T07;E-stop;variável;imediato;AC off e gates zero
