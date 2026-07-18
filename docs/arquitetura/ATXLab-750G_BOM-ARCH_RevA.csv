@@ -1,0 +1,12 @@
+Grupo;Quantidade;Descrição;Referência inicial;Estado
+Carga 12 V;12;MOSFET linear, dois por módulo;IXTK90N25L2;selecionado
+Medição DC;12;monitor de potência por canal;INA228;selecionado
+DAC;3;DAC SPI de 4 canais;DAC80504;selecionado
+Op-amps;12 canais;amplificador de precisão;OPA197/OPA4197;pré-selecionado
+Proteção;12;comparador analógico por canal;TLV1701 ou equivalente;validar
+Supervisor;1;MCU central;STM32H7 ou ESP32-S3;aberto
+I2C;2;multiplexador 8 canais;TCA9548A;pré-selecionado
+Térmica;6;dissipadores módulo 12 V;150 W por módulo;dimensionar
+Ventilação;4-6;fans PWM alta pressão;120/140 mm;dimensionar
+AC;1;analisador de potência true-RMS/PF;externo Modbus/LAN;aberto
+Segurança AC;1 conjunto;disjuntor, contator, E-stop, PE;20 A;dimensionar
