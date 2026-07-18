@@ -1,0 +1,11 @@
+Sinal;Direção;Função
+PS_ON#;saída open-drain;aciona UUT
+PWR_OK;entrada isolada/protegida;temporização e falha
+5VSB;entrada analógica;standby
+E_STOP;entrada NC;segurança geral
+FAN_TACH_1..6;entrada;falha de ventilação
+TEMP_MOD_1..12;entrada;derating/trip
+LOAD_ENABLE_1..12;saída;habilitação local
+KILL_GATE;saída/linha wired-OR;desligamento físico
+AC_ANALYZER;comunicação;Pin, PF, Vrms, Irms
+HOST;Ethernet/USB;UI e banco de dados
